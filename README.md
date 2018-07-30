@@ -8,6 +8,13 @@
 
 ## 1 &ensp; Labs
 
+### 1.0 &ensp; Separation of Concern (`./separation`)
+0. For this lab, you'll be working in the `separation` directory. Make sure you are in the right directory.
+1. In `separation.html`, include the JavaScript file `code.js` using a `<script>` tag with a `src` attribute.
+2. In `code.js`, add an `alert` that pops up with your name.
+3. Open `separation.html` in Google Chrome. If you see a popup alert, you did it!
+4. Raise your hand and get a checkoff from a TA or Instructor. Nice work!
+
 ### 1.1 &ensp; Object literals and JSON (`./object-literals`)
 0. For this lab, you'll be working in the `object-literals` directory. Make sure you are in the right directory. Make sure that you are adding your HTML and JavaScript to the correct files - don't add HTML to your `.js` file!
 1. Create an object literal called `me` in `object-literals.js` that represents yourself. The object should contain the following properties:
