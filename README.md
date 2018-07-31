@@ -3,7 +3,7 @@
 
 ## 0 &ensp; Getting Started
 1. **Fork** the repository `https://github.com/meet-projects/y2s18-intro-js-2`.
-2. **Change directory on your Desktop** using the following command: `cd ~/Desktop`.
+2. **Change directory on your Desktop** with **Terminal** using the following command: `cd ~/Desktop`.
 2. **Clone** the repository `y2s18-intro-js-2` onto your Desktop, replacing `<username>` with your Github username in the following command:
     - `$ git clone https://github.com/<username>/y2s18-intro-js-2`.
 
@@ -31,7 +31,7 @@
 
 ### 1.2 &ensp; Events (`./html-events`)
 0. For this lab, you'll be working in the **`~/Desktop/intro-js-2/html-events`** directory. Make sure you are in the right directory. Make sure that you are adding your HTML and JavaScript to the correct files - don't add HTML to your `.js` file!
-1. There is a button in `html-events.html`. The button should do two things when it is clicked:
+1. Add a button to `html-events.html`. The button should do two things when it is clicked:
     1. It should prompt the user for a color.
     2. After getting an answer, the background color of the web site should change to that color. In order to do this, you need to **select the `body` element of the website.**
 6. Raise your hand and get a checkoff from a TA or Instructor. Nice work!
