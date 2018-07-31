@@ -3,9 +3,8 @@
 
 ## 0 &ensp; Getting Started
 1. **Fork** the repository `https://github.com/meet-projects/y2s18-intro-js-2`.
-2. **Change directory on your Desktop** using the following command:
-    - `$ cd ~/Desktop`
-2. **Clone** the repository `y2s18-intro-js-2` into a local directory, replacing `<username>` with your Github username in the following command:
+2. **Change directory on your Desktop** using the following command: `cd ~/Desktop`.
+2. **Clone** the repository `y2s18-intro-js-2` onto your Desktop, replacing `<username>` with your Github username in the following command:
     - `$ git clone https://github.com/<username>/y2s18-intro-js-2`.
 
 ## 1 &ensp; Labs
@@ -46,13 +45,6 @@
 5. **Finish the `showNextPicture` function in `event-listeners.js`.** Have the image change its `src` attribute when the image is clicked. The value of the `src` attribute should be based on `currentIndex`. 
 6. Raise your hand and get a checkoff from a TA or Instructor. Nice work!
 
-### 1.4 &ensp; Forms (`./form-validation`)
-0. For this lab, you'll be working in the **`~/Desktop/intro-js-2/form-validation`** directory. Make sure you are in the right directory. Make sure that you are adding your HTML and JavaScript to the correct files - don't add HTML to your `.js` file!
-1. Change the `rating` input field in the rating form (`ratingForm`) so that it only allows users to enter numbers.
-2. Add a `onsubmit` event listener to the form, and have it check `validateForm()` in order to make sure the form has valid values in both the `username` and `rating` input fields. 
-3. **Finish the function `validateForm()`** so that ratings cannot be less than 0 or greater than 5. Make sure that usernames have length greater than 0 as well.
-4. Raise your hand and get a checkoff from a TA or Instructor. Nice work!
-
 ## 2 &ensp; Challenges
 
 ### 2.1 &ensp; Object Constructors (`./object-constructors`)
@@ -84,7 +76,13 @@ if (currentIndex >= pictures.length) {
 into one line of code.
 
 ### 2.4 &ensp; Forms (`./form-validation`)
-1. Demonstrate that client-side form validation isn't enough by giving a user a rating that's greater than 5 (or less than 0).
+0. For this lab, you'll be working in the **`~/Desktop/intro-js-2/form-validation`** directory. Make sure you are in the right directory. Make sure that you are adding your HTML and JavaScript to the correct files - don't add HTML to your `.js` file!
+1. Change the `rating` input field in the rating form (`ratingForm`) so that it only allows users to enter numbers.
+2. Add a `onsubmit` event listener to the form, and have it check `validateForm()` in order to make sure the form has valid values in both the `username` and `rating` input fields. 
+3. **Finish the function `validateForm()`** so that ratings cannot be less than 0 or greater than 5. Make sure that usernames have length greater than 0 as well.
+
+#### 2.4.1 &ensp; Client-side vs. Server-side
+4. Demonstrate that client-side form validation isn't enough by giving a user a rating that's greater than 5 (or less than 0).
 
 ### 2.X &ensp; Culminating Challenge
 Take the [Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe) game logic from the previous culminating challenge and build a frontend user interface. Don't prompt the players to type in their move anymore. Instead, the players should be able to click on the screen to make their move.
