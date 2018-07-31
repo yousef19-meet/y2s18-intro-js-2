@@ -29,14 +29,69 @@
 3. Go to https://api.meet.sh/json/ and submit your JSON string from step 2. If everything works, you just successfully transmitted data from your computer (the client) to `https://api.meet.sh` (the server), without needing to do much work.
 4. Raise your hand and get a checkoff from a TA or Instructor. Nice work!
 
-### 1.2 &ensp; Events (`./html-events`)
+### 1.3 &ensp; Selecting and Manipulating DOM Elements (`playground`)
+0. Go to https://api.meet.sh/playground using **Chromium Web Browser**.
+1. Read the following source code of the website to understand the elements on the page:
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM Playground</title>
+</head>
+
+<body>
+
+<div class="header">
+    <h1 class="title">All About Cats</h1>
+    <h2 class="subtitle">by Matthew Feng</h2>
+</div>
+
+<div class="about">
+    <h2>About</h2>
+    <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350">
+
+    <p>Cats are great.</p>
+    <p>They are cute.</p>
+    <p>They are also fun to play with.</p>
+</div>
+
+<div class="details">
+    <h2>Details</h2>
+    <h3 class="heading">Things cats don't like, not in order</h3>
+    <ul>
+        <li class="dislike">Car rides</li>
+    </ul>
+
+    <h3 class="heading">Things cats like, in order</h3>
+    <ol>
+        <li class="like">Fresh Food</li>
+        <li class="like">Fun Games</li>
+        <li class="like">Lots of Sleep</li>
+    </ol>
+</div>
+
+</body>
+
+</html>
+```
+
+2. Try to do the following in the **Chrome Inspector** (`Right Click > Inspect`, look for **Console**):
+    1. Select the **first heading with class `title`** and change the font color to a color that you like.
+    2. Select the second paragraph ("They are cute") and change the text to say something else.
+    3. Use a **class selector** to change the background color of the "About" section.
+    4. Use a **class selector** to change the background color of the "Details" section.
+    5. You can change the `src` attribute of an image! Try using [this answer](https://stackoverflow.com/questions/9731728/javascript-change-img-src-attribute-without-jquery) to do it.
+
+### 1.4 &ensp; Events (`./html-events`)
 0. For this lab, you'll be working in the **`~/Desktop/intro-js-2/html-events`** directory. Make sure you are in the right directory. Make sure that you are adding your HTML and JavaScript to the correct files - don't add HTML to your `.js` file!
 1. Add a button to `html-events.html`. The button should do two things when it is clicked:
     1. It should prompt the user for a color.
     2. After getting an answer, the background color of the web site should change to that color. In order to do this, you need to **select the `body` element of the website.**
 6. Raise your hand and get a checkoff from a TA or Instructor. Nice work!
 
-### 1.3 &ensp; Event Listeners (`./event-listeners`)
+### 1.5 &ensp; Event Listeners (`./event-listeners`)
 0. For this lab, you'll be working in the **`~/Desktop/intro-js-2/event-listeners`** directory. Make sure you are in the right directory. Make sure that you are adding your HTML and JavaScript to the correct files - don't add HTML to your `.js` file!
 1. Lets create a simple slideshow! Go on Google and download 5 pictures that you like. If you need some help finding images, [Unsplash](https://unsplash.com/) has some pretty photos. Save them into the `~/Desktop/intro-js-2/imgs` directory.
 2. Create an image in `event-listeners.html` using a `<img>` tag.
