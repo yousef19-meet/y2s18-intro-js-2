@@ -3,7 +3,9 @@
 
 ## 0 &ensp; Getting Started
 1. **Fork** the repository `https://github.com/meet-projects/y2s18-intro-js-2`.
+
 <img src="images/fork.png">
+
 2. **Change directory on your Desktop** with **Terminal** using the following command: `cd ~/Desktop`.
 2. **Clone** the repository `y2s18-intro-js-2` onto your Desktop, replacing `<username>` with your Github username in the following command:
     - `$ git clone https://github.com/<username>/y2s18-intro-js-2`.
