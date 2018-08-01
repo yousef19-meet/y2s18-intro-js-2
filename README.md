@@ -80,7 +80,7 @@
 </html>
 ```
 
-2. Try to do the following in the **Chrome Inspector** (`Right Click > Inspect`, look for **Console**):
+2. Try to do the following in the **JavaScript Console** (`Right Click > Inspect`, look for **Console**):
     1. Select the **first heading with class `title`** and change the font color to a color that you like.
     2. Select the second paragraph ("They are cute") and change the text to say something else.
     3. Use a **class selector** to change the background color of the "About" section.
