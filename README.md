@@ -1,4 +1,4 @@
-# Exercises for Day 3 Lecture 2
+# Labs for Day 3 Lecture 2
 ## Introduction to JavaScript, Part 2 (Web Pages)
 
 ## 0 &ensp; Getting Started
